@@ -18,7 +18,7 @@ import logging
 logging.getLogger().disabled = False
 
 
-logging.basicConfig(filename='/Users/danyzambrano/downloads/example.log', 
+logging.basicConfig(filename='/example.log', 
                     filemode='w', 
                     format='%(asctime)s - %(name)s -  %(levelname)s - %(message)s',
                     datefmt='%d/%m/%Y %I:%M:%S %p',
